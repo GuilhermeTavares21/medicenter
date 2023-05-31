@@ -235,17 +235,17 @@ nav a:hover {
 }
 
 .departments_container {
-    width: 250px;
-    height: 400px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .departments_container_box {
-    width: 110px;
-    height: 110px;
+    display: flex;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
     background-color: #42b3e5;
 }
 
@@ -325,4 +325,133 @@ article {
     min-width: 300px;
     margin-right: 20px;
 
+}
+
+footer {
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+}
+
+.container_footer {
+    display: flex;
+    width: 1230px;
+    flex-direction: column;
+
+}
+
+.footer_menu {
+    display: flex;
+    flex:1;
+}
+
+.fm_1, .fm_2, .fm_3 {
+    flex:1;
+    padding: 20px;
+    color: white;
+}
+
+footer h3 {
+    font-size:32px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+footer h4 {
+    font-size:13px;
+    font-weight: normal;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.fm_1 {
+    background-color: #42b3e5;
+
+}
+
+.fm_2 {
+    background-color: #0384ce;
+
+}
+
+.fm_3 {
+    background-color: #3156a3;
+}
+
+.footer_area {
+    display:flex;
+    color:white;
+    flex:1;
+}
+
+.footer_areaitem {
+    flex:1;
+    
+}
+
+footer .widget_title_text {
+    color: white;
+    font-size:17px;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    line-height: 40px;
+    color:#5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.widget_body_med {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 30px;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+
+#med_footer_adress, #med_footer_contact {
+    margin-top: 40px;
+}
+
+footer img {
+    object-fit: cover;
+    margin-top: 30px;
+    width: 180px;
+}
+
+#latest_post {
+    font-size: 14px;
+}
+
+#latest_post_time {
+    color:#42b3e5;
+    font-size: 13px;
+}
+
+footer .latest {
+    margin-bottom: 20px;
+    margin-left: 17px;
+}
+
+footer .tweet {
+    margin-bottom: 15px;
+    margin-left: 17px;
+}
+
+#tweets_post {
+    font-size: 13px;
+    color: #5c5c5c;
+}
+
+#tweet_post_time {
+    font-size: 9px;
+    color:#42b3e5;
+
+}
+
+footer .widget_body img {
+    width: 10px;
+    object-fit: cover;
 }
